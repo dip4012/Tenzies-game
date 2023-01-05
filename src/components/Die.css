@@ -9,4 +9,10 @@
 	color: #2b283a;
 	font-size: 21px;
 	font-weight: 700;
+	cursor: pointer;
+	background-color: #ffffff;
+}
+
+.die.locked {
+	background-color: #59e391;
 }

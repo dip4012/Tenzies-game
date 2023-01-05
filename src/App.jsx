@@ -1,7 +1,21 @@
 import "./App.css"
+import Die from "./components/Die"
 
 function App() {
-	return <div className="App"></div>
+	return (
+		<main>
+			<Die value={1} />
+			<Die value={1} />
+			<Die value={1} />
+			<Die value={1} />
+			<Die value={1} />
+			<Die value={1} />
+			<Die value={1} />
+			<Die value={1} />
+			<Die value={1} />
+			<Die value={1} />
+		</main>
+	)
 }
 
 export default App
